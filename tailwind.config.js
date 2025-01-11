@@ -3,8 +3,12 @@ export default {
   content: ["./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: {  fontFamily: {
+      bebas: ['"Bebas Neue"', 'cursive'], // For bold cinematic fonts
+      montserrat: ['"Montserrat"', 'sans-serif'], // For clean modern fonts
+    },
+    },
   },
   plugins: [],
-}
+};
 
