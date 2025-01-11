@@ -37,7 +37,7 @@ function Nav() {
                 </div>
 
                 {/* Mobile menu */}
-                <div className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden absolute top-16 left-0 right-0 bg-black w-48 rounded-md border-t opacity-90 border-gray-800`}>
+                <div className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden absolute top-16 left-76 right-0 bg-black w-48 rounded-md border-t font-bold opacity-90 border-gray-800`}>
                     <div className="flex flex-col p-4">
                         <NavLink to="./">
                             <button className="py-3 text-shine text-xl text-white font-bebas hover:text-slate-400 font-semibold text-left">HOME</button>
