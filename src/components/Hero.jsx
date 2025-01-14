@@ -8,47 +8,26 @@ const [videoindex, setvideoindex] = useState(0);
 
 const videos = [
 
+'./src/videos/cn.mp4',
 './src/videos/fc.mp4',
-'./src/videos/batman.mp4'
 
 ];
 
 const taglines = [
-
-{ text: "Where Every Frame Tells a Story" },
-
-{ text: "Your Universe of Cinema" },
-
-{ text: "Rate. Review. Rewatch." },
-
-{ text: "Every Movie. Every Moment. Every Memory." },
-
-{ text: "Discover Your Next Favorite" },
-
-{ text: "The Pulse of Cinema" },
-
-{text: "Lights.Camera.Action"},
-
-{text:  "Where Stories Come To Life"},
-
-{
-
-text : "Cinematic Journeys Await."
-
-},
-
-{ text: "For the Love of Film" },
-
-{ text : "Discover. Watch. Relive"},
-
-{
-
-text:"Movies that Move You."
-
-}
-
-];
-
+    { text: "Discover, Rate, and Save Your Favorites" },
+    { text: "Your Go-To Hub for Movie Reviews and Watchlists" },
+    { text: "Explore. Review. Add to Watchlist." },
+    { text: "Every Movie, One Click Away" },
+    { text: "Find, Review, and Bookmark Your Next Watch" },
+    { text: "The Ultimate Movie Experience Starts Here" },
+    { text: "Rate Movies, Build Your Watchlist" },
+    { text: "Cinema at Your Fingertips" },
+    { text: "Where Movie Lovers Unite" },
+    { text: "Uncover Hidden Gems, One Review at a Time" },
+    { text: "Save Your Favorites, Relive the Magic" },
+    { text: "Your Personal Guide to the World of Film" }
+  ];
+  
 useEffect(() => {
 
 const timer = setInterval(() => {
@@ -76,7 +55,6 @@ return (
 <video
 
 className="absolute inset-0 top-0 left-0 w-full h-full object-cover opacity-90"
-
 src={videos[videoindex]}
 
 type="video/mp4"
@@ -91,7 +69,7 @@ onEnded={handlevid}
 
 {/* Rotating text */}
 
-<h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bebas text-shine text-center text-8xl font-bold text-transparent bg-gradient-to-r from-indigo-500 via-pink-600 to-red-700 bg-clip-text drop-shadow-[0_0_10px_rgba(99,102,241,1)] drop-shadow-[0_0_20px_rgba(219,39,119,1)] drop-shadow-[0_0_30px_rgba(220,38,38,1)]">
+<h1 className=" p-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bebas text-shine text-center font-bold bg-gradient-to-r from-indigo-500 via-pink-600 to-red-700 drop-shadow-lg bg-clip-text text-transparent lg:text-8xl text-6xldrop-shadow-[0_0_10px_rgba(99,102,241,1)] drop-shadow-[0_0_20px_rgba(219,39,119,1)] drop-shadow-[0_0_30px_rgba(220,38,38,1)] lg:text-8xl text-6xl">
 
 {taglines[currentindex].text}
 
