@@ -471,23 +471,7 @@ function Qts() {
         {
           quote: "I'm not a comic book villain. Do you seriously think I would explain my master stroke to you if there were even the slightest possibility you could affect the outcome?",
           movie: "The Dark Knight",
-        },
-        {
-          quote: "I'm not a hero. I'm a high-functioning sociopath.",
-          movie: "Sherlock",
-        },
-        {
-          quote: "I'm not a businessman; I'm a business, man.",
-          movie: "Jay-Z: Fade to Black",
-        },
-        {
-          quote: "I'm not a monster. I'm just ahead of the curve.",
-          movie: "The Dark Knight",
-        },
-        {
-          quote: "I'm not a comic book villain. Do you seriously think I would explain my master stroke to you if there were even the slightest possibility you could affect the outcome?",
-          movie: "The Dark Knight",
-        },
+        }
       ];
     useEffect( () => {
       console.log("useEffect running");
@@ -502,11 +486,11 @@ function Qts() {
   return (
     <>
     <div className='mt-10 '>
-    <h1 className='text-xl lg:text-3xl text-shine font-bold font-bebas  bg-gradient-to-t  from-indigo-500 via-pink-600 to-red-700 bg-clip-text text-transparent text-center mb-10'>"Hollywood's Best Lines Below"</h1>  
-    <h1 className='text-3xl lg:text-5xl text-shine font-bold p-6 font-bebas bg-gradient-to-t  from-indigo-500 via-pink-600 to-red-700 bg-clip-text text-transparent text-center '>
+    <h1 className='lg:text-xl font-bold font-bebas  bg-gradient-to-t  from-indigo-500 via-pink-600 to-red-700 bg-clip-text text-transparent text-center '>"Hollywood's Best Lines Below"</h1>  
+    <h1 className='text-2xl lg:text-3xl text-shine font-bold p-3 font-bebas bg-gradient-to-t  from-indigo-500 via-pink-600 to-red-700 bg-clip-text text-transparent text-center '>
         {movieQuotes[index].quote};
     </h1>
-    <h3 className='pb-10 lg:text-3xl text-shine font-bold font-bebas bg-gradient-to-t  from-indigo-500 via-pink-600 to-red-700 bg-clip-text text-transparent text-center'>
+    <h3 className='pb-5 lg:text-xl text-shine font-bold font-bebas bg-gradient-to-t  from-indigo-500 via-pink-600 to-red-700 bg-clip-text text-transparent text-center'>
         {movieQuotes[index].movie};
     </h3>
     </div>
