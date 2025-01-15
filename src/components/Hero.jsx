@@ -69,7 +69,7 @@ onEnded={handlevid}
 
 {/* Rotating text */}
 
-<h1 className=" p-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bebas text-shine text-center font-bold bg-gradient-to-r from-indigo-500 via-pink-600 to-red-700 drop-shadow-lg bg-clip-text text-transparent lg:text-8xl text-6xldrop-shadow-[0_0_10px_rgba(99,102,241,1)] drop-shadow-[0_0_20px_rgba(219,39,119,1)] drop-shadow-[0_0_30px_rgba(220,38,38,1)] lg:text-8xl text-6xl">
+<h1 className=" p-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bebas  text-center font-bold bg-gradient-to-r from-indigo-500 via-pink-600 to-red-700 drop-shadow-lg bg-clip-text text-transparent lg:text-8xl text-6xl  lg:text-8xl text-6xl">
 
 {taglines[currentindex].text}
 
